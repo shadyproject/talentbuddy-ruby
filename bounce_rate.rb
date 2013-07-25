@@ -8,6 +8,7 @@ bounce_rate = 17
 
 compute_active_users(num_visitors, bounce_rate)
 
+# i always have to work this out to remember how to do it
 #  x     b
 # --- = ---
 #  n    100
