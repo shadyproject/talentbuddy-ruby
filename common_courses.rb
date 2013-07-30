@@ -3,7 +3,7 @@
 # that are contained in both arrays, sorted in ascending order, one per line
 
 def get_common_courses(courses1, courses2)
-  puts courses1 & courses2
+  puts (courses1 & courses2).sort
 end
 
 c1 = [1, 2, 8, 4, 5, 8, 3]
