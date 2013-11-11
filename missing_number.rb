@@ -5,7 +5,10 @@
 # 3
 
 def find_missing_number(v)
-  puts v
+  nums = Array(1..v.max)
+  difference = nums - v
+
+  puts difference
 end
 
 arr = [5, 4, 1, 2]
